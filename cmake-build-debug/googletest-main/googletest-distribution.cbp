@@ -24,7 +24,8 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/OneDrive/Desktop/NetSim/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/src"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googletest/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googlemock/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googlemock"/>
@@ -51,7 +52,8 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/OneDrive/Desktop/NetSim/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/src"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googletest/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googlemock/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googlemock"/>
@@ -78,7 +80,8 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/OneDrive/Desktop/NetSim/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/src"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googlemock/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googlemock"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googletest/include"/>
@@ -105,7 +108,8 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/OneDrive/Desktop/NetSim/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/src"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googlemock/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googlemock"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googletest/include"/>
@@ -132,7 +136,8 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/OneDrive/Desktop/NetSim/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/src"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googletest/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googlemock/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googletest"/>
@@ -158,7 +163,8 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/OneDrive/Desktop/NetSim/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/src"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googletest/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googlemock/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googletest"/>
@@ -184,7 +190,8 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/OneDrive/Desktop/NetSim/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/src"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googlemock/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googletest/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googletest"/>
@@ -210,7 +217,8 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/OneDrive/Desktop/NetSim/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/include"/>
+					<Add directory="D:/OneDrive/Desktop/NetSim/polprodukty/src"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googlemock/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googletest/include"/>
 					<Add directory="D:/OneDrive/Desktop/NetSim/googletest-main/googletest"/>

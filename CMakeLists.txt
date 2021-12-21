@@ -22,15 +22,16 @@ add_subdirectory(symulacja)
 ### TESTY ###
 # pliki naglowkowe dla googletest
 include_directories(
-        include
+        polprodukty/include
+        polprodukty/src
         googletest-main/googletest/include
         googletest-main/googlemock/include)
 
 # wspoldzielone pliki cpp dla testów
 set(TEST_SOURCES
         # testy - polprodukty
-        polprodukty/test/package_test.cpp
         polprodukty/test/storage_types_test.cpp
+        polprodukty/test/package_test.cpp
 
         # testy - wezly
 

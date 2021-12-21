@@ -42,7 +42,7 @@ CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=C:/msys64/mingw64/bin/g++.exe
+CMAKE_CXX_COMPILER:STRING=C:/msys64/mingw64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -71,7 +71,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=C:/msys64/mingw64/bin/gcc.exe
+CMAKE_C_COMPILER:STRING=C:/msys64/mingw64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -318,6 +318,9 @@ INSTALL_GTEST:BOOL=ON
 NetSim_BINARY_DIR:STATIC=D:/OneDrive/Desktop/NetSim/cmake-build-debug
 
 //Value Computed by CMake
+NetSim_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
 NetSim_SOURCE_DIR:STATIC=D:/OneDrive/Desktop/NetSim
 
 //Value Computed by CMake
@@ -325,6 +328,9 @@ gmock_BINARY_DIR:STATIC=D:/OneDrive/Desktop/NetSim/cmake-build-debug/googletest-
 
 //The directory containing a CMake configuration file for gmock.
 gmock_DIR:PATH=gmock_DIR-NOTFOUND
+
+//Value Computed by CMake
+gmock_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
 gmock_LIB_DEPENDS:STATIC=general;gtest;
@@ -345,10 +351,16 @@ googlemock_DIR:PATH=googlemock_DIR-NOTFOUND
 googletest-distribution_BINARY_DIR:STATIC=D:/OneDrive/Desktop/NetSim/cmake-build-debug/googletest-main
 
 //Value Computed by CMake
+googletest-distribution_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
 googletest-distribution_SOURCE_DIR:STATIC=D:/OneDrive/Desktop/NetSim/googletest-main
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=D:/OneDrive/Desktop/NetSim/cmake-build-debug/googletest-main/googletest
+
+//Value Computed by CMake
+gtest_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 gtest_SOURCE_DIR:STATIC=D:/OneDrive/Desktop/NetSim/googletest-main/googletest
@@ -386,9 +398,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=d:/OneDrive/Desktop/NetSim/cmake-build-debug
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=19
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=21
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -542,7 +554,7 @@ CMAKE_RC_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=C:/Program Files/JetBrains/CLion 2021.1.2/bin/cmake/win/share/cmake-3.19
+CMAKE_ROOT:INTERNAL=C:/Program Files/JetBrains/CLion 2021.1.2/bin/cmake/win/share/cmake-3.21
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -579,7 +591,7 @@ _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/NetSim
 _Python_EXECUTABLE:INTERNAL=C:/Users/Daniel/AppData/Local/Programs/Python/Python39/python.exe
 //Python Properties
 _Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;9;0;64;;cp39-win_amd64;C:\Users\Daniel\AppData\Local\Programs\Python\Python39\Lib;C:\Users\Daniel\AppData\Local\Programs\Python\Python39\Lib;C:\Users\Daniel\AppData\Local\Programs\Python\Python39\Lib\site-packages;C:\Users\Daniel\AppData\Local\Programs\Python\Python39\Lib\site-packages
-_Python_INTERPRETER_SIGNATURE:INTERNAL=939048fcf6f4ab5e61ba06dccacc2463
+_Python_INTERPRETER_SIGNATURE:INTERNAL=49bfa72cdd8acf3e92419aafe3f5551e
 cmake_package_name:INTERNAL=GTest
 generated_dir:INTERNAL=D:/OneDrive/Desktop/NetSim/cmake-build-debug/googletest-main/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
