@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\NetSim_test.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\NetSim_test.dir/objects.a @CMakeFiles\NetSim_test.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\NetSim_test.dir/objects.a -Wl,--no-whole-archive -o NetSim_test.exe -Wl,--out-implib,libNetSim_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\NetSim_test.dir\linklibs.rsp

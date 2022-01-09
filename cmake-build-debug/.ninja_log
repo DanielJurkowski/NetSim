@@ -1,0 +1,13 @@
+# ninja log v5
+6	3067	6634459649708401	CMakeFiles/NetSim_test.dir/test/main_g_test.cpp.obj	5d1c4e173e7a9b36
+36	4869	6634459667647922	googletest-main/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	1de3eea3b2805e6c
+13762	18788	6634459806807776	NetSim_test.exe	d017bc24400bc380
+44	10647	6634459725311710	googletest-main/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	9e6a6c2611d38714
+3	410	6634358647654777	CMakeFiles/NetSim.dir/src/storage_types.cpp.obj	897abaeadb49b779
+24	2675	6634459645758938	CMakeFiles/NetSim_test.dir/test/test_package.cpp.obj	76c20e287c3f0827
+10647	13343	6634459752410901	lib/libgtestd.a	72436400c5d6f071
+13343	13762	6634459756608323	lib/libgmockd.a	ba4e00db2260fea
+14	460	6634358648143462	CMakeFiles/NetSim.dir/src/package.cpp.obj	672c790235043ba5
+444	573	6634359314584620	NetSim.exe	c4df1f7e48d11aa3
+33	675	6634459625707192	CMakeFiles/NetSim_test.dir/src/storage_types.cpp.obj	b09f127961bd4dc9
+27	756	6634459626560691	CMakeFiles/NetSim_test.dir/src/package.cpp.obj	c54146a9cbbf5a98

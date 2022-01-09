@@ -39,36 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/OneDrive/Desktop/NetSim/cmake-build-debug/polprodukty/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/OneDrive/Desktop/NetSim/cmake-build-debug/wezly/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/OneDrive/Desktop/NetSim/cmake-build-debug/fabryka/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/OneDrive/Desktop/NetSim/cmake-build-debug/IO/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/OneDrive/Desktop/NetSim/cmake-build-debug/raporty/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/OneDrive/Desktop/NetSim/cmake-build-debug/symulacja/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("D:/OneDrive/Desktop/NetSim/cmake-build-debug/googletest-main/cmake_install.cmake")
 endif()
 
