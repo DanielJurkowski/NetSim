@@ -27,6 +27,7 @@ set(TEST_SOURCES
         test/test_package.cpp
         test/test_storage_types.cpp
         test/test_nodes.cpp
+        test/test_Factory.cpp
         )
 
 add_subdirectory(googletest-main)

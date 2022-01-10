@@ -72,6 +72,8 @@ public:
 
     const_iterator begin() const { return preferences_.begin(); }
     const_iterator end() const { return preferences_.end(); }
+    const_iterator cbegin() const { return preferences_.cbegin(); }
+    const_iterator cend() const { return preferences_.cend(); }
 
     void add_receiver(IPackageReceiver* r);
     void remove_receiver(IPackageReceiver* r);
