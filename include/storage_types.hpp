@@ -18,7 +18,6 @@ public:
     virtual bool empty() = 0;
     virtual std::size_t size() = 0;
 
-    // iterators
     using const_iterator = std::list<Package>::const_iterator;
 
     virtual const_iterator begin() const = 0;

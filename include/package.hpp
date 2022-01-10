@@ -11,15 +11,13 @@
 
 class Package{
 public:
-    explicit Package();
+    Package();
     explicit Package(ElementID element_id);
 
-    // konstruktor kopiujący oraz konstruktor typu 'move'
     Package(const Package& package) = default;
-    Package(Package&& package) noexcept = default;
+    Package(Package&&) = default;
 
-    // operator przypisania
-    Package& operator=(Package&& package) noexcept;
+    Package& operator=(Package&&) = default;
 
     ElementID get_id() const { return element_id_; }
 

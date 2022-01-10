@@ -8,14 +8,19 @@ Package PackageQueue::pop(){
     switch (PackageQueue::queue_type_)
     {
         case PackageQueueType::FIFO:{
-            PackageQueue::queue_.pop_back();
-            return PackageQueue::queue_.front();
+            Package first_element(std::move(queue_.front()));
+            PackageQueue::queue_.pop_front();
+            return first_element;
         }
 
-        // dla wszystkich innych przypadków, tj. LIFO
-        default:
-            PackageQueue::queue_.pop_front();
-            return PackageQueue::queue_.back();
+        case PackageQueueType::LIFO:{
+            Package first_element(std::move(queue_.back()));
+            PackageQueue::queue_.pop_back();
+            return first_element;
+        }
     }
+    Package package;
+    return package;
 }
+
 

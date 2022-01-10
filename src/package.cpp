@@ -41,12 +41,6 @@ Package::Package(ElementID element_id) {
     }
 }
 
-Package &Package::operator=(Package&& package) noexcept{
-    if (this != &package){
-        this->element_id_ = package.element_id_;
-    }
-    return *this;
-}
 
 Package::~Package() {
     Package::freed_IDs.insert(Package::element_id_);
