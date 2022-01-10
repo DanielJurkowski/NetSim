@@ -21,3 +21,5 @@
 16	1695	6635317166775040	CMakeFiles/NetSim_test.dir/src/nodes.cpp.obj	37c9417e85a60b80
 4	4372	6635317193540357	CMakeFiles/NetSim_test.dir/test/test_nodes.cpp.obj	5fe4d41afad75b7
 4372	8384	6635317233631303	NetSim_test.exe	a682f7152b22dd81
+4	427	6635323723487374	CMakeFiles/NetSim_test.dir/src/storage_types.cpp.obj	83c58877bd41af80
+427	4209	6635323761283866	NetSim_test.exe	a682f7152b22dd81

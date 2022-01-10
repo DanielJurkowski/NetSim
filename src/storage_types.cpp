@@ -18,9 +18,11 @@ Package PackageQueue::pop(){
             PackageQueue::queue_.pop_back();
             return first_element;
         }
+        default:{
+            Package package;
+            return package;
+        }
     }
-    Package package;
-    return package;
 }
 
 
