@@ -5,24 +5,23 @@
 #include "nodes.hpp"
 
 //ReceiverPreferences
-
 void ReceiverPreferences::add_receiver(IPackageReceiver* r) {
     preferences_[r] = 1;
-    size_t size = preferences_.size();
+    std::size_t size = preferences_.size();
 
-    for (auto & [key, value] : preferences_)
+    for (auto& kv : preferences_)
     {
-        value = 1 / (double)size;
+        kv.second = 1 / (double)size;
     }
 }
 
 void ReceiverPreferences::remove_receiver(IPackageReceiver* r) {
     preferences_.erase (r);
-    size_t size = preferences_.size();
+    std::size_t size = preferences_.size();
 
-    for (auto & [key, value] : preferences_)
+    for (auto& kv : preferences_)
     {
-        value = 1 / (double)size;
+        kv.second = 1 / (double)size;
     }
 }
 
@@ -30,19 +29,18 @@ IPackageReceiver *ReceiverPreferences::choose_receiver() {
     double rand = pg_();
     double distribution_fun = 0;
 
-    for (auto & [key, value] : preferences_)
+    for (auto& kv : preferences_)
     {
-        distribution_fun = distribution_fun + value;
+        distribution_fun = distribution_fun + kv.second;
 
         if(rand <= distribution_fun){
-            return key;
+            return kv.first;
         }
     }
     return nullptr;
 }
 
 //PackageSender
-
 void PackageSender::send_package() {
     if(sending_buffer_) {
         auto receiver = receiver_preferences_.choose_receiver();
@@ -56,7 +54,6 @@ void PackageSender::push_package(Package && p) {
 }
 
 //Ramp
-
 void Ramp::deliver_goods(Time t) {
     if((t - 1) % di_ == 0) {
         sending_buffer_ = Package();
@@ -64,10 +61,8 @@ void Ramp::deliver_goods(Time t) {
 }
 
 //Worker
-
 void Worker::do_work(Time t) {
     {
-
         if(!(*q_).empty() && (!processing_buffer_)) {
             processing_buffer_.emplace((*q_).pop());
             processing_start_time_ = t;

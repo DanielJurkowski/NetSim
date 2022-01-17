@@ -50,7 +50,9 @@ public:
 
     void receive_package(Package&& package) override { d_->push(std::move(package)); }
     ElementID get_id() const override { return id_; }
-    ReceiverType get_receiver_type() const override { return ReceiverType::STOREHOUSE; }
+
+
+    ReceiverType get_receiver_type() const { return ReceiverType::STOREHOUSE; }
 
     const_iterator begin() const override { return d_->begin(); }
     const_iterator cbegin() const override { return d_->cbegin(); }
@@ -78,7 +80,7 @@ public:
     void add_receiver(IPackageReceiver* r);
     void remove_receiver(IPackageReceiver* r);
     IPackageReceiver* choose_receiver();
-    preferences_t& get_preferences() { return preferences_; };
+    const preferences_t & get_preferences() const {return preferences_;}
 
 private:
     ProbabilityGenerator pg_;
@@ -107,7 +109,7 @@ public:
     Ramp(ElementID id, TimeOffset di) : id_(id), di_(di) {};
 
     void deliver_goods(Time t);
-    TimeOffset get_deilvery_interval() const { return di_; }
+    TimeOffset get_delivery_interval() const { return di_; }
     ElementID get_id() const { return id_; }
 
 private:
@@ -124,8 +126,11 @@ public:
     Time get_package_processing_start_time() const { return processing_start_time_; }
     void receive_package(Package&& package) override { q_->push(std::move(package)); }
     ElementID get_id() const override { return id_; }
-    ReceiverType get_receiver_type() const override { return ReceiverType::WORKER; }
+    ReceiverType get_receiver_type() const { return ReceiverType::WORKER; }
+
+
     const std::optional<Package>& get_processing_buffer() const {return processing_buffer_;}
+    IPackageQueue* get_queue() const {return q_.get();}
 
     const_iterator begin() const override { return q_->begin(); }
     const_iterator cbegin() const override { return q_->cbegin(); }
