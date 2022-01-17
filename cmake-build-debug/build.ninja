@@ -89,6 +89,14 @@ build CMakeFiles/NetSim_test.dir/test/test_factory_io.cpp.obj: CXX_COMPILER__Net
   OBJECT_DIR = CMakeFiles\NetSim_test.dir
   OBJECT_FILE_DIR = CMakeFiles\NetSim_test.dir\test
 
+build CMakeFiles/NetSim_test.dir/test/test_reports.cpp.obj: CXX_COMPILER__NetSim_test_Debug D$:/OneDrive/Desktop/NetSim/test/test_reports.cpp || cmake_object_order_depends_target_NetSim_test
+  DEFINES = -DEXERCISE_ID=FACTORY
+  DEP_FILE = CMakeFiles\NetSim_test.dir\test\test_reports.cpp.obj.d
+  FLAGS = -g -Wall -Wextra -Werror -Wpedantic -pedantic-errors -Werror=switch -std=gnu++17
+  INCLUDES = -ID:/OneDrive/Desktop/NetSim/include -ID:/OneDrive/Desktop/NetSim/src -ID:/OneDrive/Desktop/NetSim/mocks -isystem D:/OneDrive/Desktop/NetSim/googletest-main/googletest/include -isystem D:/OneDrive/Desktop/NetSim/googletest-main/googlemock/include -isystem D:/OneDrive/Desktop/NetSim/googletest-main/googlemock -isystem D:/OneDrive/Desktop/NetSim/googletest-main/googletest
+  OBJECT_DIR = CMakeFiles\NetSim_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\NetSim_test.dir\test
+
 build CMakeFiles/NetSim_test.dir/src/storage_types.cpp.obj: CXX_COMPILER__NetSim_test_Debug D$:/OneDrive/Desktop/NetSim/src/storage_types.cpp || cmake_object_order_depends_target_NetSim_test
   DEFINES = -DEXERCISE_ID=FACTORY
   DEP_FILE = CMakeFiles\NetSim_test.dir\src\storage_types.cpp.obj.d
@@ -129,6 +137,14 @@ build CMakeFiles/NetSim_test.dir/src/factory.cpp.obj: CXX_COMPILER__NetSim_test_
   OBJECT_DIR = CMakeFiles\NetSim_test.dir
   OBJECT_FILE_DIR = CMakeFiles\NetSim_test.dir\src
 
+build CMakeFiles/NetSim_test.dir/src/reports.cpp.obj: CXX_COMPILER__NetSim_test_Debug D$:/OneDrive/Desktop/NetSim/src/reports.cpp || cmake_object_order_depends_target_NetSim_test
+  DEFINES = -DEXERCISE_ID=FACTORY
+  DEP_FILE = CMakeFiles\NetSim_test.dir\src\reports.cpp.obj.d
+  FLAGS = -g -Wall -Wextra -Werror -Wpedantic -pedantic-errors -Werror=switch -std=gnu++17
+  INCLUDES = -ID:/OneDrive/Desktop/NetSim/include -ID:/OneDrive/Desktop/NetSim/src -ID:/OneDrive/Desktop/NetSim/mocks -isystem D:/OneDrive/Desktop/NetSim/googletest-main/googletest/include -isystem D:/OneDrive/Desktop/NetSim/googletest-main/googlemock/include -isystem D:/OneDrive/Desktop/NetSim/googletest-main/googlemock -isystem D:/OneDrive/Desktop/NetSim/googletest-main/googletest
+  OBJECT_DIR = CMakeFiles\NetSim_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\NetSim_test.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target NetSim_test
@@ -137,7 +153,7 @@ build CMakeFiles/NetSim_test.dir/src/factory.cpp.obj: CXX_COMPILER__NetSim_test_
 #############################################
 # Link the executable NetSim_test.exe
 
-build NetSim_test.exe: CXX_EXECUTABLE_LINKER__NetSim_test_Debug CMakeFiles/NetSim_test.dir/test/main_g_test.cpp.obj CMakeFiles/NetSim_test.dir/test/test_package.cpp.obj CMakeFiles/NetSim_test.dir/test/test_storage_types.cpp.obj CMakeFiles/NetSim_test.dir/test/test_Factory.cpp.obj CMakeFiles/NetSim_test.dir/test/test_factory_io.cpp.obj CMakeFiles/NetSim_test.dir/src/storage_types.cpp.obj CMakeFiles/NetSim_test.dir/src/package.cpp.obj CMakeFiles/NetSim_test.dir/src/nodes.cpp.obj CMakeFiles/NetSim_test.dir/src/helpers.cpp.obj CMakeFiles/NetSim_test.dir/src/factory.cpp.obj | lib/libgmockd.a lib/libgtestd.a || lib/libgmockd.a lib/libgtestd.a
+build NetSim_test.exe: CXX_EXECUTABLE_LINKER__NetSim_test_Debug CMakeFiles/NetSim_test.dir/test/main_g_test.cpp.obj CMakeFiles/NetSim_test.dir/test/test_package.cpp.obj CMakeFiles/NetSim_test.dir/test/test_storage_types.cpp.obj CMakeFiles/NetSim_test.dir/test/test_Factory.cpp.obj CMakeFiles/NetSim_test.dir/test/test_factory_io.cpp.obj CMakeFiles/NetSim_test.dir/test/test_reports.cpp.obj CMakeFiles/NetSim_test.dir/src/storage_types.cpp.obj CMakeFiles/NetSim_test.dir/src/package.cpp.obj CMakeFiles/NetSim_test.dir/src/nodes.cpp.obj CMakeFiles/NetSim_test.dir/src/helpers.cpp.obj CMakeFiles/NetSim_test.dir/src/factory.cpp.obj CMakeFiles/NetSim_test.dir/src/reports.cpp.obj | lib/libgmockd.a lib/libgtestd.a || lib/libgmockd.a lib/libgtestd.a
   FLAGS = -g
   LINK_LIBRARIES = lib/libgmockd.a  lib/libgtestd.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\NetSim_test.dir

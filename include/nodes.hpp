@@ -54,10 +54,13 @@ public:
 
     ReceiverType get_receiver_type() const { return ReceiverType::STOREHOUSE; }
 
+    IPackageStockpile* get_stockpile() const {return d_.get();}
+
     const_iterator begin() const override { return d_->begin(); }
     const_iterator cbegin() const override { return d_->cbegin(); }
     const_iterator end() const override { return d_->end(); }
     const_iterator cend() const override { return d_->cend(); }
+
 
 private:
     ElementID id_;

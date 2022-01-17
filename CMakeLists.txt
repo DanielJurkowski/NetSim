@@ -19,7 +19,7 @@ set(SOURCE_FILES
         src/nodes.cpp
         src/helpers.cpp
         src/factory.cpp
-        #src/reports.cpp
+        src/reports.cpp
         )
 
 set(TEST_SOURCES
@@ -29,7 +29,7 @@ set(TEST_SOURCES
         #test/test_nodes.cpp
         test/test_Factory.cpp
         test/test_factory_io.cpp
-        #test/test_reports.cpp
+        test/test_reports.cpp
         )
 
 add_subdirectory(googletest-main)
